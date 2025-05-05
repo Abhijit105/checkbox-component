@@ -16,6 +16,44 @@
   </head>
   <body>
     <!-- Add your site or application content here -->
+    <main
+      class="flex flex-col gap-4 w-max mx-auto items-stretch justify-center h-dvh"
+    >
+      <div class="flex items-center justify-start gap-4">
+        <input
+          class="bg-white focus:bg-white disabled:bg-neutral-200 border-1 border-neutral-300 focus:border-indigo-600 disabled:border-neutral-300 rounded-sm"
+          type="checkbox"
+          id="unchecked"
+        /><label
+          class="text-neutral-600 font-display font-normal text-base leading-[1.5]"
+          for="unchecked"
+          >Unchecked</label
+        >
+      </div>
+      <div class="flex items-center justify-start gap-4">
+        <input
+          class="bg-white checked:bg-indigo-600 focus:bg-indigo-600 disabled:bg-neutral-200 border-1 border-neutral-300 checked:border-indigo-600 focus:border-indigo-600 disabled:border-neutral-200 rounded-sm"
+          type="checkbox"
+          id="checked"
+          checked
+        /><label
+          class="text-neutral-600 font-display font-normal text-base leading-[1.5]"
+          for="checked"
+          >Checked</label
+        >
+      </div>
+      <div class="flex items-center justify-start gap-4">
+        <input
+          class="bg-white focus:bg-indigo-600 disabled:bg-neutral-200 border-1 border-neutral-300 focus:border-indigo-600 disabled:border-neutral-200 rounded-sm"
+          type="checkbox"
+          id="indeterminate"
+        /><label
+          class="text-neutral-600 font-display font-normal text-base leading-[1.5]"
+          for="indeterminate"
+          >Indeterminate</label
+        >
+      </div>
+    </main>
 
     <!-- Attribute this challenge to yourself! -->
     <div class="credits" data-gfe-screenshot-exclude="true">
